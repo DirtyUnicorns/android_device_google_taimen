@@ -32,6 +32,12 @@ DEVICE_PACKAGE_OVERLAYS += device/google/taimen/overlay
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
+# IMS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    RcsService \
+    PresencePolling
+
 # Default priv-app permissions
 PRODUCT_COPY_FILES += \
     device/google/taimen/privapp-permissions-taimen.xml:$(TARGET_OUT_ETC)/permissions/privapp-permissions-taimen.xml
