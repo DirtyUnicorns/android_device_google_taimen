@@ -18,11 +18,6 @@ TARGET_BOOTLOADER_BOARD_NAME := taimen
 DEFAULT_LOW_PERSISTENCE_MODE_BRIGHTNESS := 0x0000008c
 
 BOARD_KERNEL_CMDLINE += console=ttyMSM0,115200,n8 earlycon=msm_serial_dm,0xc1b0000
-KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_SOURCE := kernel/google/wahoo
-TARGET_KERNEL_CONFIG := custom_defconfig
-TARGET_KERNEL_ARCH := arm64
-BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
 
 include device/google/wahoo/BoardConfig.mk
 
