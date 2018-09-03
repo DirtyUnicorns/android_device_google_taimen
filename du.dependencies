@@ -15,7 +15,7 @@
     "branch":      "o8x"
   },
   {
-    "repository":  "DirtyUnicorns/android_vendor_pixelgapps",
+    "repository":  "spaceman860/android_vendor_pixelgapps",
     "target_path": "vendor/pixelgapps",
     "branch":      "o8x"
   }
