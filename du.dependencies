@@ -13,5 +13,10 @@
     "repository":  "DirtyUnicorns/android_vendor_google",
     "target_path": "vendor/google",
     "branch":      "q10x"
+  },
+  {
+    "repository":  "gitlab.com/DirtyUnicorns/android_vendor_pixelgapps",
+    "target_path": "vendor/pixelgapps",
+    "branch":      "q10x"
   }
 ]
