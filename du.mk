@@ -25,13 +25,11 @@ $(call inherit-product, device/google/taimen/aosp_taimen.mk)
 # Override AOSP build properties
 PRODUCT_NAME := du_taimen
 PRODUCT_DEVICE := taimen
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 2 XL
-PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="taimen" \
-    TARGET_DEVICE="taimen" \
     PRIVATE_BUILD_DESC="taimen-user 10 QQ3A.200605.001 6392402 release-keys"
 
 BUILD_FINGERPRINT := "google/taimen/taimen:10/QQ3A.200605.001/6392402:user/release-keys"
