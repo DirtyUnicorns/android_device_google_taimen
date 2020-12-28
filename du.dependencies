@@ -10,6 +10,11 @@
     "branch":       "r11x"
   },
   {
+    "repository":   "DirtyUnicorns/android_hardware_qcom_msm8998",
+    "target_path":  "hardware/qcom/msm8998",
+    "branch":       "r11x"
+  },
+  {
     "repository":  "DirtyUnicorns/android_vendor_google",
     "target_path": "vendor/google",
     "branch":      "r11x"
